@@ -1,1 +1,1 @@
-# resume-ohyan
+Ohyan resume using Next.js
