@@ -1,1 +1,1 @@
-Ohyan resume using Next.js
+Resume using next.js
