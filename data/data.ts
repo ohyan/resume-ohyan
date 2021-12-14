@@ -113,9 +113,12 @@ const Resume: IResume = {
         { name: '北京工業大学', title: '電子工学部 電子工学学科', duration: '2012年9月 - 2016年8月' },
     ],
     skills: [
-        { name: 'Python', icon: 'https://cdn.svgporn.com/logos/python.svg' },
-        // { name: 'Sass', icon: 'https://cdn.svgporn.com/logos/sass.svg' },
-        // { name: 'Stylus', icon: 'https://cdn.svgporn.com/logos/stylus.svg' },
+        { name: 'Python', icon: 'https://cdn.svgporn.com/logos/python.svg'},
+        { name: 'Jupyter', icon: 'https://cdn.svgporn.com/logos/jupyter.svg'},
+        { name: 'Git', icon: 'https://cdn.svgporn.com/logos/git.svg'},
+        { name: 'Google Cloud', icon: 'https://cdn.svgporn.com/logos/google-cloud.svg'},
+        { name: 'AWS', icon: 'https://cdn.svgporn.com/logos/aws.svg'},
+        { name: 'Docker', icon: 'https://cdn.svgporn.com/logos/docker-icon.svg'},
     ],
     awards: [
         // {

@@ -15,7 +15,7 @@ const Publications = ({ data }: PublicationProps) => {
                             <div className="Publication-entity-place">
                                 <h6 className="Publication-entity-title">{entity.title}</h6>
                             </div>
-                            <a href={entity.link}>{entity.link}</a>
+                            <a href={entity.link} className="Publication-entity-link">{entity.link}</a>
                         </div>
                     ))
                 }
@@ -36,6 +36,12 @@ const Publications = ({ data }: PublicationProps) => {
 
                     .Publication-entity-title {
                         margin-left: 0rem;
+                    }
+
+                    .Publication-entity-link {
+                        margin-left: 0rem;
+                        font-size: 1.0rem;
+                        color: blue;
                     }
 
                 `}

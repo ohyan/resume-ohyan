@@ -13,7 +13,7 @@ const Experience = ({ data }: ExperienceProps) => {
                     data.map((work, index) => (
                         <div key={`work_${index}`} className="Experience-work">
                             <div className="Experience-work-title">
-                                <h4 className="Experience-work-position">{work.title}</h4>
+                                <h5 className="Experience-work-position">{work.title}</h5>
                                 <span className="Experience-work-duration">{work.duration}</span>
                             </div>
                             <div className="Experience-work-place">
@@ -21,14 +21,14 @@ const Experience = ({ data }: ExperienceProps) => {
                             </div>
                             {<div className="Experience-work-description">{work.description}
                             </div>}
-                            <div className="Experience-work-stack">
+                            {/* <div className="Experience-work-stack">
                                 {work.stack.map((tool, index) => (
                                     <div className="Experience-work-tool" key={`tool_${index}`} >
                                         <img src={tool.icon} />
                                         <span>{tool.name}</span>
                                     </div>
                                 ))}
-                            </div>
+                            </div> */}
                         </div>
                     ))
                 }
@@ -43,7 +43,7 @@ const Experience = ({ data }: ExperienceProps) => {
                     .Experience-work {
                         display: flex;
                         flex-direction: column;
-                        padding: 3rem 0;
+                        padding: 1.5rem 0;
                         border-bottom: 1px solid rgba(200,200,200, .2);
                     }
                     .Experience-work:first-child{
@@ -82,7 +82,7 @@ const Experience = ({ data }: ExperienceProps) => {
                     .Experience-work-stack{
                         display: flex;
                         flex-wrap: wrap;
-                        margin-top: 1rem;
+                        margin-top: 0.qrem;
                     }
 
                     .Experience-work-tool{
@@ -93,7 +93,7 @@ const Experience = ({ data }: ExperienceProps) => {
 
                     .Experience-work-tool img{
                         width: 20px;
-                        margin-right: .5rem;
+                        margin-right: 0.5rem;
                     }
                 `}
             </style>
